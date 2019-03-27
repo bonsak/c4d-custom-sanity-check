@@ -2,8 +2,9 @@
 Pre submit script to set custom frame range
 
 ## Install
-Copy CustomSanityChecks.py to REPO/Submission/Cinema4D/Main/<CustomSanityChecks.py
-It will run automatically right before the submission dialog is shown
+Copy CustomSanityChecks.py to REPO/Submission/Cinema4D/Main/CustomSanityChecks.py
+It will run automatically right before the submission dialog is shown.
+Use at your own risk!
 
 ## Description
 When submitting jobs to Deadline its often usefull to have the first and the last frame rendered first.
