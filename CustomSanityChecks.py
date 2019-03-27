@@ -3,7 +3,7 @@ from c4d import documents
 from c4d import gui
 
 def RunSanityCheck( dialog ):
-	# Most of this code is copied from the main submitter.
+    # Most of this code is copied from the main submitter.
     scene = documents.GetActiveDocument()
     frameRate = scene.GetFps()
 
