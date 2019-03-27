@@ -42,8 +42,8 @@ def RunSanityCheck( dialog ):
     if stepFrame > 1:
         frameList = frameList + "x" + str(stepFrame)
 
-    print 'Start {}, End {}, Step {}'.format(startFrame, endFrame, stepFrame)
-    print frameList
+    # print 'Start {}, End {}, Step {}'.format(startFrame, endFrame, stepFrame)
+    # print frameList
 
     dialog.SetString( dialog.dialogIDs[ "FramesBoxID" ], frameList )
 
