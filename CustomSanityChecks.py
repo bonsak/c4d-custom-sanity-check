@@ -35,7 +35,7 @@ def RunSanityCheck( dialog ):
     frameList = str(startFrame)
     if startFrame != endFrame:
     	# Find a frame in the middle of the range
-    	midFrame = int(endFrame * 0.5)
+    	midFrame = int( startFrame + ( (endFrame-startFrame) * 0.5) )
         frameList = frameList + "-" + str(endFrame)
         # Build a custom range with first, last, middleframe and then all the frames
         frameList = '{0},{1},{2},{0}-{1}'.format(startFrame, endFrame, midFrame )
