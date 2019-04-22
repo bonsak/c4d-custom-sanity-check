@@ -1,5 +1,5 @@
 # c4d-custom-sanity-check
-Pre submit script to set custom frame range
+Pre-submit script to set custom frame range
 Only tested with Deadline 10
 
 ## Install
