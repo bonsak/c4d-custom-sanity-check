@@ -1,5 +1,5 @@
 # c4d-custom-sanity-check
-Pre-submit script to set frame range to first, last, midle and all remaining frames for example: 0,100,50,0-100
+Pre-submit script to set frame range to first, last, middle and all remaining frames for example: 0,100,50,0-100
 Only tested with Deadline 10
 
 ## Install
